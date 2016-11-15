@@ -96,7 +96,7 @@ nav{
 	font-weight: bold;
 	padding-bottom: 30px;
 }
-/* unable to set color and width to line itself */
+/* unable to set color and width to line itself - solved*/
 hr {
 	height: 1px;
 	border-top: 1px solid #cccccc;
@@ -272,6 +272,6 @@ section:hover {
 }
 
 
-/* TODO -> 1. Find out why !important is needed for things like section, footer or header tags. Something to do with reset.css..?? */
+/* Solved -> Find out why !important is needed for things like section, footer or header tags. Something to do with reset.css..?? -> solved- override reset by style.css, cascading ... */
 	 
 
