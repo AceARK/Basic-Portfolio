@@ -133,6 +133,7 @@ hr {
 	border: 0px;
 }
 
+/* connect with me css*/
 
 #connect-options {
 	text-align: center;
@@ -169,6 +170,8 @@ footer p {
 	padding: 35px;
 }
 
+/* contact page css */
+
 /* input boxes */
 
 input, #message{
@@ -190,6 +193,8 @@ input, #message{
     background-color: #38817e;
 }
 
+/* portfolio page css */
+
 #imagepair1, #imagepair2, #imagepair3 {
 	box-sizing: border-box;
 	overflow: auto;
@@ -204,7 +209,7 @@ input, #message{
 	position: relative;
 	font-size: 20px;
 	overflow: hidden;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 .stockimage {
@@ -275,8 +280,8 @@ section {
 	opacity: 0.8;    
 }*/
 
-/* Need JS to hover both section and image differently. */
+/* Need JS to hover both section and stockimage differently but together. */
 
-/* Solved -> Find out why !important is needed for things like section, footer or header tags. Something to do with reset.css..?? -> solved- override reset by style.css, cascading ... */
+/* Solved -> why !important was needed for things like section, footer or header tags. solved- override reset by style.css. !important not needed then. */
 	 
 
