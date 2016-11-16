@@ -204,6 +204,7 @@ input, #message{
 	position: relative;
 	font-size: 20px;
 	overflow: hidden;
+	opacity: 0.9;
 }
 
 .stockimage {
@@ -226,7 +227,6 @@ section {
 	padding-top: 8px;
 	position: absolute;
 	bottom: 8px;
-	opacity: 1;
 }
 
 #imagebox1 {
@@ -261,16 +261,21 @@ section {
 	clear: both;
 }
 
+#imagebox1:hover, #imagebox2:hover, #imagebox3:hover, #imagebox4:hover, #imagebox5:hover{
+	opacity: 1;
+}
+
 .stockimage:hover {
 	height: 200px;
 	width: 270px;
 }
 
-section:hover {
+/*section:hover {
 	background-color: #38817e;
-	opacity: 0.5;    
-}
+	opacity: 0.8;    
+}*/
 
+/* Need JS to hover both section and image differently. */
 
 /* Solved -> Find out why !important is needed for things like section, footer or header tags. Something to do with reset.css..?? -> solved- override reset by style.css, cascading ... */
 	 
